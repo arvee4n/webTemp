@@ -1,0 +1,114 @@
+html {
+
+  overflow-y: scroll;
+	scrollbar-color: #111 #444;
+	scrollbar-width: thin;
+}
+
+html, body{
+  margin:0px;
+  height:100%;
+color: greenyellow;
+}
+
+body {
+            margin: 0;
+            padding: 0; 
+            background-image: url('media/misc/backgrounds/stars.gif');
+            background-attachment: fixed;
+            background-position: center center;
+        }
+
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: black;
+            border: 2px solid #555;
+            box-shadow: 0px 0px 10px #000;
+        }
+
+        .header {
+            background-image: url('media/misc/backgrounds/metal.jpg');
+            text-align: center;
+            border-bottom: 5px;
+        }
+
+        table {
+            width: 1200px;
+            margin-top: 15px;
+        }
+
+        td {
+            padding: 10px;
+            vertical-align: top;
+            border: 1px;
+        }
+
+        .profile-picture {
+            text-align: center;
+            background-image: url('media/misc/backgrounds/metal.jpg');
+        }
+
+        .profile-picture img {
+            width: 150px;
+            height: 150px;
+            border-radius: 0px;
+            border: 3px;
+        }
+
+        .pageTitle {
+            background-image: url('media/misc/backgrounds/metal.jpg');
+            font-size: 18px;
+            padding: 5px;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+
+        .section-header {
+            background-image: url('media/misc/backgrounds/metal.jpg');
+            font-size: 18px;
+            padding: 5px;
+            text-align: left;
+            color: #fff;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+
+        .main {
+            background-color: darkgreen;
+            color: #fff;
+            padding: 7px;
+        }
+
+        .navigate {
+            background-image: url('media/misc/backgrounds/metal.jpg');
+            color: #693275;
+            padding: 5px;
+            display: flex;
+            justify-content: left;
+        }
+
+        a {
+            color: orangered;
+            text-decoration: underline;
+        }
+        
+        a.black {
+            color: #000;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Buttons */
+        .button {
+            font: inherit;
+            background-color: #fff;
+            border-color: #000;
+            border: 1px solid;
+        }
